@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Flowers</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Flower Market</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -12,10 +11,50 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header></header>
+    <!-- cart <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-battery-full"></i>
+    <i class="fa-solid fa-signal"></i> 
+    -->
+    <header>
+      <nav class="container">
+        <div class="navbar-content">
+          <img src="./assets/logo.svg" alt="flower-store" />
+          <ul class="nav-links">
+            <li>
+              <a href="#" class="nav-link"> Home </a>
+            </li>
+            <li>
+              <a href="#Shop-content" class="nav-link">Shop</a>
+            </li>
+            <li>
+              <a href="#about-content" class="nav-link"> About Us </a>
+            </li>
+            <li>
+              <a href="#cart-content" class="nav-link">
+                <i class="fa-solid fa-cart-shopping"></i>Cart ($58)
+              </a>
+            </li>
+          </ul>
+          <!-- mobile nav links -->
+          <ul class="nav-mobile-links">
+            <li>
+              <a href="#cart-content" class="nav-link">
+                <i class="fa-solid fa-cart-shopping"></i>Cart ($58)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main></main>
     <footer></footer>
   </body>
