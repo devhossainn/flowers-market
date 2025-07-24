@@ -395,7 +395,7 @@ img {
   .nav-link > .fa-cart-shopping {
     margin-right: 0.5rem;
   }
-  .nav_logo {
+  .logo {
     display: inline-block;
     width: 4rem;
     height: 2.5rem;
@@ -505,7 +505,7 @@ img {
   .footer-term-links ul {
     margin: 0;
   }
-  .social-icons{
+  .social-icons {
     justify-content: start;
     gap: 2rem;
   }
